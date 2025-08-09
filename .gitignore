@@ -1,0 +1,30 @@
+# Node modules
+**/node_modules/
+
+# Build directories
+/frontend/dist/
+/backend/dist/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+.Debris/
+.DS_Store
+
+# Log files
+*.log
+logs/
+npm-debug.log*
+
+# System files
+Thumbs.db
+
+# Angular specific
+/.angular/cache
+
+# NestJS specific
+*.env.local
+*.env.*.local
+.env.development
+.env.test
